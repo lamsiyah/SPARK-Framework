@@ -40,22 +40,24 @@ This repository is intended to host materials related to the SPARK framework, su
 
 ## Example Student Projects
 
-Below are anonymized demos of selected student projects developed within the course:
+Below are selected student projects developed within the course:
 
 ### 1. Agentic Socratic NLP Tutor
 A modular agentic tutoring system combining question generation, response analysis, and dialogue management to produce adaptive Socratic follow-up questions grounded in student responses.  
-**Demo:**  
-https://drive.google.com/file/d/1qLAOWMia770gOIB_uL8OUmjsIqXNYHJu/view?usp=sharing
+**Repository:**  
+https://github.com/RedPill47/Agentic_Socratic_NLP_Tutor-final
 
 ### 2. Explained AI-Text Detection Using Curvature-Based Signals
 An AI-generated text detection system based on curvature-related statistical features, paired with an explanation module that visualizes confidence patterns and supports failure analysis.  
-**Demo:**  
-https://drive.google.com/file/d/1d-uNefvB08IqHtajTHcCRoGq-v_KOaXY/view?usp=sharing
+**Repository:**  
+https://github.com/TenderChasm/Notai.ai
 
 ### 3. Book Recommendation Chatbot Using RAG
 A retrieval-augmented generation chatbot that retrieves relevant book information from an indexed collection and conditions responses on grounded evidence.  
 **Demo:**  
-https://drive.google.com/file/d/1kyxr2nF-k0n8jdb8afXdE98445PFeOo-/view?usp=sharing
+https://drive.google.com/file/d/1kyxr2nF-k0n8jdb8afXdE98445PFeOo-/view?usp=sharing  
+**Repository:**  
+https://github.com/BiancaGL2104/rag-book-recommender
 
 ### 4. Multi-Agent Résumé and Cover Letter Assistant
 A multi-agent workflow for information extraction, skill matching, document planning, and controlled generation of résumés and cover letters.  
