@@ -1,0 +1,131 @@
+name: SPARK course material request
+description: Request access to SPARK/NLP course material or express interest in collaboration.
+title: "Course material request: "
+labels:
+  - course-material-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in the SPARK framework and NLP course materials.
+
+        Privacy note: this repository is public, so information submitted here may be publicly visible. If you prefer not to share your email publicly, please contact Dr. Salima Lamsiyah directly by email instead.
+
+  - type: input
+    id: full-name
+    attributes:
+      label: Full name
+      placeholder: Your name
+    validations:
+      required: true
+
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: University, school, organization, or independent researcher.
+      placeholder: University of ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      options:
+        - Instructor
+        - Researcher
+        - Student
+        - Curriculum designer
+        - Industry practitioner
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email address
+      description: This may be visible publicly on GitHub. Use direct email instead if you prefer privacy.
+      placeholder: name@example.com
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country or region
+      placeholder: Country or region
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: material-interest
+    attributes:
+      label: Which part of the course are you interested in?
+      description: Select all that apply.
+      options:
+        - label: Full SPARK framework materials
+        - label: Course structure and lecture progression
+        - label: Teaching slides
+        - label: Hands-on practical notebooks
+        - label: Project briefs
+        - label: Assessment design and rubrics
+        - label: Student presentation/seminar design
+        - label: Low-stakes games and competitions
+        - label: Student project examples
+        - label: Agentic Socratic NLP Tutor materials
+        - label: NotAI.AI / explainable AI-text detection materials
+        - label: RAG or multi-agent project examples
+    validations:
+      required: true
+
+  - type: dropdown
+    id: intended-use
+    attributes:
+      label: Intended use
+      options:
+        - I want to adapt the course for teaching
+        - I want to cite or study the framework
+        - I want to use selected materials with students
+        - I am interested in research collaboration
+        - I am a student interested in learning NLP/AI
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why are you interested in these materials?
+      description: Briefly explain your context, goals, or planned use.
+      placeholder: I am interested because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: course-context
+    attributes:
+      label: Teaching or research context
+      description: Optional. Mention course level, discipline, language, class size, or research context if relevant.
+      placeholder: Undergraduate NLP course, AI education study, workshop, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Contact and privacy acknowledgement
+      options:
+        - label: I understand that this GitHub issue may be publicly visible.
+          required: true
+        - label: I agree to be contacted by email about SPARK course materials.
+          required: true
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional comments
+      placeholder: Any additional notes or questions.
+    validations:
+      required: false
